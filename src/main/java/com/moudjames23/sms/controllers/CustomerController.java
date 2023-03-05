@@ -15,7 +15,7 @@ import java.util.Optional;
 import static com.moudjames23.sms.dto.HttpResponse.generateResponse;
 
 @RestController
-@RequestMapping("api/v1")
+@RequestMapping("api/v2")
 public class CustomerController {
 
     private final CustomerService customerService;
